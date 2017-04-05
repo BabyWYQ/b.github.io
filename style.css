@@ -1,1 +1,104 @@
-body{}
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+a{
+    text-decoration: none;
+}
+header{
+    width: 1000px;
+    height:280px;
+    margin: 0 auto;
+}
+#head{
+    width: 1000px;
+    height: 90px;
+    border-bottom: 6px solid #037487;
+    overflow: hidden;
+}
+#head p{
+    float:left ;
+    font-size: 40px;
+    line-height: 90px;
+    color: #037487;
+}
+#head span{
+    width: 180px;
+    height: 20px;
+    float: left;
+    font-size: 10px;
+    margin: 50px 0 0 16px;
+    color: #037487;
+}
+#head ul{
+    float: right;
+    width: 300px;
+    height: 80px;
+    margin-top: 30px;
+}
+#head ul li{
+    width: 150px;
+    height: 30px;
+    color: #037487;
+    float: left;
+}
+#education{
+    width: 500px;
+    height: 180px;
+    float: left;
+}
+#education p{
+    font-size:30px ;
+    color: #037487;
+}
+#education ul{
+    list-style: none;
+    margin-left: 30px;
+}
+#education ul li{
+    width: 500px;
+    height: 14px;
+    color: #037487;
+    position: relative;
+    font-size: 14px;
+    margin-top: 12px;
+}
+#education ul li i{
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    border: 1px solid #037487;
+    border-radius: 50%;
+    margin: 2px 30px 0 30px;
+}
+#education ul li span{
+    display: block;
+    height: 14px;
+    width: 1px;
+    background-color: #037487;
+    position: absolute;
+    top: -11px;
+    left: 112px;
+}
+#evaluate{
+    width: 500px;
+    height: 180px;
+    float: left;
+}
+#evaluate p{
+    font-size: 30px;
+    color: #037487;
+}
+#evaluate span{
+    float: left;
+    width: 250px;
+    height: 150px;
+    margin-top: 10px;
+}
+#evaluate img{
+    height: 150px;
+    width: 150px;
+    float: left;
+    margin-top: -30px;
+}
