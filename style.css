@@ -102,3 +102,69 @@ header{
     float: left;
     margin-top: -30px;
 }
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin:10px auto;
+    width:1000px;
+    height:300px;
+    background:pink;
+}
+#work-box{
+    width:1000px;
+}
+#Work-nav{
+    color:#00abeb;
+    font-size:20px;
+    font-weight:600;
+}
+#wordList{
+    margin-top:20px;
+    list-style:none;
+    width:1000px;
+    height:40px;
+    color:#ccc;
+    font-weight:600;
+    text-align:center;
+}
+#wordList li {
+    float:left;
+    width:120px;
+    margin-right:10px;
+    line-height:20px;
+    list-style: none;
+}
+#circle{
+    width:1000px;
+    height:100px;
+    margin-top:10px;
+    list-style:none;
+}
+#circle li{
+    float:left;
+}
+#circle .big-circle{
+    width:100px;
+    height: 100px;
+    border-radius:50%;
+    border:3px #00a2d4;
+    background-color: #fff;
+}
+#circle .big-circle{
+    width:100px;
+    margin-right:54px;
+    height: 100px;
+    border-radius:50%;
+    border:3px #00a2d4;
+    background-color: #fff;
+}
+#circle .small-circle{
+    width:80px;
+    height:80px;
+    margin-right:40px;
+    border-radius:50%;
+    background-color:#0a879a;
+    margin-top:13px;
+}
